@@ -20,7 +20,7 @@ function App() {
     <div className="">
       <BrowserRouter>
         <Routes>
-          <Route path="/watch" element={<Watch array={num} />} />
+          <Route path="/" element={<Watch array={num} />} />
           <Route path="/read" element={<Read />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/login" element={<Login />} />
